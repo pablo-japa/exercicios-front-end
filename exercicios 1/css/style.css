@@ -1,0 +1,12 @@
+body{
+    background-color:rgb(132, 193, 193);
+}
+
+label {
+    margin: auto;
+    text-align: center;
+}
+input {
+    margin: auto;
+    text-align: center;
+}
