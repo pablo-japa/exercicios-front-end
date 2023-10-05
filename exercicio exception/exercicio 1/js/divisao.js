@@ -1,5 +1,5 @@
 export default class divisao{
-    divisao(dividendo,divisor){
+    divisaoMetodo(dividendo,divisor){
         try{
             if(divisor === 0 ){
                 throw new Error("Divisão por zero não é aceita")
@@ -12,3 +12,4 @@ export default class divisao{
     }
     }
 }
+
