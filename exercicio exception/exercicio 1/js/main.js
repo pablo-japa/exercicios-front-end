@@ -1,4 +1,4 @@
-import adicaoFuncao from './adicao.js';
+import adicao from './adicao.js';
 import subtracao from './subtracao.js';
 import divisao from './divisao.js';
 import multiplicacao from './multiplicacao.js';
@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 throw new Error("Caracteres não são validos")
             }
 
-            let resultado = adicaoFuncao()
+            let objeto = new adicao(n1,n2);
+            let resultado = objeto.adicaoMetodo()
             saida.innerText = "Resultado: " + resultado;
 
         } catch (error) {
