@@ -1,5 +1,5 @@
 export default class subtracao {
-    subtracao(num1, num2){
+    subtracaoMetodo(num1, num2){
         return num1 - num2;
     }
 }
