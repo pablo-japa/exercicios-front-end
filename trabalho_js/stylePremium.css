@@ -1,0 +1,22 @@
+body {
+    /* Adicionei algumas propriedades para melhorar a visualização */
+    margin: 0;
+    padding: 0;
+}
+
+.premium {
+    color: white;
+}
+
+#planoCarrossel {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+.carousel-inner {
+    text-align: center;
+}
+.premium{
+    background-color: rgb(170, 139, 199);
+}
